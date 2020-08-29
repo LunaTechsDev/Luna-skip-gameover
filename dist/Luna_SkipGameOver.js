@@ -2,7 +2,7 @@
 // Luna_SkipGameOver.js
 //=============================================================================
 //=============================================================================
-// Build Date: 2020-08-29 19:08:39
+// Build Date: 2020-08-29 19:15:33
 //=============================================================================
 //=============================================================================
 // Made with LunaTea -- Haxe
@@ -15,6 +15,10 @@
 @plugindesc Skips the game over screen for testing during the development
 process <LunaSkipGameOver>.
 @target MV MZ
+
+@help
+
+There are no script calls it works without any modification to the settings.
 
 MIT License
 Copyright (c) 2020 LunaTechsDev

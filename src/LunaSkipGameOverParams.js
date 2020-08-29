@@ -4,6 +4,10 @@
 process <LunaSkipGameOver>.
 @target MV MZ
 
+@help
+
+There are no script calls; it works without any modification to the settings.
+
 MIT License
 Copyright (c) 2020 LunaTechsDev
 Permission is hereby granted, free of charge, to any person obtaining a copy
