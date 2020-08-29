@@ -1,7 +1,7 @@
 /*:
 @author LunaTechs - Kino
-@plugindesc Skips the title screen for testing during the development
-process <LunaSkipTitle>.
+@plugindesc Skips the game over screen for testing during the development
+process <LunaSkipGameOver>.
 @target MV MZ
 
 MIT License

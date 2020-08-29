@@ -1,15 +1,15 @@
+import rm.scenes.Scene_GameOver;
 import rm.managers.AudioManager;
 import rm.scenes.Scene_Map;
 import rm.managers.SceneManager;
 import core.Types.JsFn;
-import rm.scenes.Scene_Title;
 import utils.Fn;
 
-class LunaSkipTitle {
+class LunaSkipGameOver {
  public static function main() {
-  var oldsceneTitleStart: JsFn = Fn.getPrProp(Scene_Title, "start");
-  Fn.setPrProp(Scene_Title, "start", () -> {
-   oldsceneTitleStart.call(Fn.self);
+  var oldSceneGameOverStart: JsFn = Fn.getPrProp(Scene_GameOver, "start");
+  Fn.setPrProp(Scene_GameOver, "start", () -> {
+   oldSceneGameOverStart.call(Fn.self);
    AudioManager.stopAll();
    SceneManager.goto(Scene_Map);
   });
