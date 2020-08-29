@@ -2,7 +2,7 @@
 // Luna_SkipGameOverMV.js
 //=============================================================================
 //=============================================================================
-// Build Date: 2020-08-29 19:15:33
+// Build Date: 2020-08-29 19:22:28
 //=============================================================================
 //=============================================================================
 // Made with LunaTea -- Haxe
@@ -41,8 +41,8 @@ SOFTWARE
 (function ($hx_exports, $global) { "use strict"
 class LunaSkipGameOver {
 	static main() {
-		let oldSceneGameOverStart = Scene_GameOver.prototype["start"] 
-		Scene_GameOver.prototype["start"] = function() {
+		let oldSceneGameOverStart = Scene_Gameover.prototype["start"] 
+		Scene_Gameover.prototype["start"] = function() {
 			oldSceneGameOverStart.call(this)
 			AudioManager.stopAll()
 			SceneManager.goto(Scene_Map)
